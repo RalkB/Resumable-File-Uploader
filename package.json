@@ -1,0 +1,11 @@
+{
+  "name": "resumable-file-uploader",
+  "version": "1.0.0",
+  "description": "simple study upload service in pure nodejs where you upload files of unlimited sizes and give the ability for resume in case of failures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RalkB",
+  "license": "MIT"
+}
