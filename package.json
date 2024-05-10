@@ -4,6 +4,7 @@
   "description": "simple study upload service in pure nodejs where you upload files of unlimited sizes and give the ability for resume in case of failures.",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "RalkB",
