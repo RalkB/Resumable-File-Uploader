@@ -20,3 +20,14 @@ To use the Resumable File Uploader:
 3. Start the server using `node server.js` or `npm start`.
 4. Access the upload endpoint using a client application or tool.
 5. Upload files by breaking them into fragments and dispatching them to the server. I recommend the following tool (https://pinetools.com/split-files)
+
+Request example:
+
+```
+curl --location --request PUT 'localhost:3000/upload' \
+--header 'chunk-number: 1' \
+--header 'total-chunks: 1' \
+--header 'file-id: test' \
+--header 'file-extension: pdf' \
+--data '@/C:/Users/your-user/Downloads/test.pdf'
+```
